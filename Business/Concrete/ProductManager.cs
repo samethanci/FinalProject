@@ -13,7 +13,7 @@ namespace Business.Concrete
 
         public ProductManager(IProductDal productDal)
         {
-            _productDal = productDal;
+            _productDal = productDal; 
         }
 
         public List<Product> GetAll()
